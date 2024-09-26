@@ -1,0 +1,41 @@
+Ahmad Reza Asari
+
+4123019
+
+
+Persiapkan Proyek Lokal Anda:
+Pastikan proyek Anda sudah ada di komputer lokal.
+Inisialisasi Repository Git (Jika Belum):
+Buka terminal atau command prompt dan arahkan ke direktori proyek Anda dengan perintah:
+bash
+cd [nama_folder]
+
+Inisialisasi repository dengan perintah:
+bash
+git init
+
+Tambahkan File ke Staging Area:
+Gunakan perintah berikut untuk menambahkan file ke repository:
+bash
+git add [nama_file]  # Untuk menambahkan file tertentu
+
+atau
+bash
+git add .  # Untuk menambahkan semua file dalam direktori
+
+Commit Perubahan:
+Lakukan commit perubahan dengan perintah:
+bash
+git commit -m "Deskripsi perubahan"
+
+Hubungkan Repository Lokal dengan GitHub:
+Tambahkan URL repository GitHub sebagai remote dengan perintah:
+bash
+git remote add origin [URL_repository_GitHub]
+
+Unggah Perubahan ke GitHub:
+Gunakan perintah berikut untuk mengunggah perubahan ke GitHub:
+bash
+git push -u origin master  # Gantilah 'master' jika menggunakan branch lain
+
+Dengan mengikuti langkah-langkah ini, Anda dapat menambahkan file ke GitHub dengan mudah, baik melalui antarmuka web maupun command line
