@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Profil Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#keahlian">Keahlian</a></li>
+                <li><a href="#pengalaman">Pengalaman Kerja</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+                <li><a href="#proyek">Proyek</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Slider Home -->
+        <section id="home">
+            <h2>Home</h2>
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide active">
+                        <h3>Selamat Datang di Profil Saya!</h3>
+                        <p>Ini adalah tempat di mana Anda dapat menemukan informasi tentang saya.
+                                Saya adalah lulusan S1 Ekonomi dari Universitas Airlangga dengan pengalaman magang di digital agency selama satu tahun. 
+                                Saya bertanggung jawab dan dapat diandalkan, serta berhasil menjalankan kampanye pemasaran digital."</p>
+                        <p>Saya merupakan spesialis digital marketing dengan pengalaman
+                             dalam meningkatkan keuntungan perusahaan hingga 50% dalam 6 bulan.
+                              Saya terampil dalam menggunakan berbagai tools digital marketing dan
+                               pengambilan keputusan berbasis data</p>
+                    </div>
+                    <div class="slide">
+                        <h3>Keahlian Saya</h3>
+                        <p>Saya memiliki keahlian dalam pengembangan web, desain grafis, dan banyak lagi.</p>
+                       
+                    </div>
+                    <div class="slide">
+                        <h3>Proyek Terbaru</h3>
+                        <p>Lihat proyek terbaru yang telah saya kerjakan di bagian proyek.</p>
+                        
+                    </div>
+                </div>
+                <button class="prev" onclick="changeSlide('home', -1)">&#10094;</button>
+                <button class="next" onclick="changeSlide('home', 1)">&#10095;</button>
+            </div>
+        </section>
+
+        <!-- Slider Keahlian -->
+        <section id="keahlian">
+            <h2>Keahlian</h2>
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide active">
+                        <h3>Pengembangan Web</h3>
+                        <p>Saya mahir dalam HTML, CSS, JavaScript, dan framework seperti React dan Vue.js.</p>
+                        h3>Pengembangan Web</h3>
+                        <p>Saya mahir dalam HTML, CSS, JavaScript, dan framework seperti React dan Vue.js.</p>
+                        h3>Pengembangan Web</h3>
+                        <p>Saya mahir dalam HTML, CSS, JavaScript, dan framework seperti React dan Vue.js.</p>
+                    </div>
+                    <div class="slide">
+                        <h3>Desain Grafis</h3>
+                        <p>Saya memiliki pengalaman dalam menggunakan Adobe Photoshop dan Illustrator.</p>
+                    </div>
+                    <div class="slide">
+                        <h3>Pemrograman Backend</h3>
+                        <p>Saya familiar dengan Node.js, Express, dan database seperti MongoDB dan MySQL.</p>
+                    </div>
+                </div>
+                <button class="prev" onclick="changeSlide('keahlian', -1)">&#10094;</button>
+                <button class="next" onclick="changeSlide('keahlian', 1)">&#10095;</button>
+            </div>
+        </section>
+
+        <!-- Slider Pengalaman Kerja -->
+        <section id="pengalaman">
+            <h2>Pengalaman Kerja</h2>
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide active">
+                        <h3>Perusahaan A</h3>
+                        <p>Posisi: Developer | Tahun: 2020 - 2022</p>
+                        <h3>Perusahaan A</h3>
+                        <p>Posisi: Developer | Tahun: 2020 - 2022</p>
+                    </div>
+                    <div class="slide">
+                        <h3>Perusahaan B</h3>
+                        <p>Posisi: Desainer | Tahun: 2018 - 2020</p>
+                        <h3>Perusahaan B</h3>
+                        <p>Posisi: Desainer | Tahun: 2018 - 2020</p>
+                    </div>
+                </div>
+                <button class="prev" onclick="changeSlide('pengalaman', -1)">&#10094;</button>
+                <button class="next" onclick="changeSlide('pengalaman', 1)">&#10095;</button>
+            </div>
+        </section>
+
+        <!-- Slider Pendidikan -->
+        <section id="pendidikan">
+            <h2>Pendidikan</h2>
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide active">
+                        <h3>Universitas X</h3>
+                        <p>Gelar: Sarjana Teknik Informatika | Tahun: 2016 - 2020</
+                        <h3>Universitas X</h3>
+                        <p>Gelar: Sarjana Teknik Informatika | Tahun: 2016 - 2020</
+                        </div>
+                        <div class="slide">
+                            <h3>Universitas Y</h3>
+                            <p>Gelar: Diploma Teknologi Informasi | Tahun: 2014 - 2016</p>
+                            <h3>Universitas Y</h3>
+                            <p>Gelar: Diploma Teknologi Informasi | Tahun: 2014 - 2016</p>
+                        </div>
+                    </div>
+                    <button class="prev" onclick="changeSlide('pendidikan', -1)">&#10094;</button>
+                    <button class="next" onclick="changeSlide('pendidikan', 1)">&#10095;</button>
+                </div>
+            </section>
+    
+            <!-- Slider Proyek -->
+            <section id="proyek">
+                <h2>Proyek Saya</h2>
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide active">
+                            <h3>Proyek A</h3>
+                            <p>Deskripsi: Aplikasi web untuk manajemen tugas.</p>
+                        </div>
+                        <div class="slide">
+                            <h3>Proyek B</h3>
+                            <p>Deskripsi: Sistem e-commerce dengan fitur lengkap.</p>
+                        </div>
+                        <div class="slide">
+                            <h3>Proyek C</h3>
+                            <p>Deskripsi: Platform pembelajaran online.</p>
+                        </div>
+                    </div>
+                    <button class="prev" onclick="changeSlide('proyek', -1)">&#10094;</button>
+                    <button class="next" onclick="changeSlide('proyek', 1)">&#10095;</button>
+                </div>
+            </section>
+    
+            <section id="kontak">
+                <h2>Kontak Saya</h2>
+                <form id="contact-form">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" required></textarea>
+    
+                    <button type="submit">Kirim</button>
+                </form>
+            </section>
+        </main>
+    
+        <div id="project-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Detail Proyek</h2>
+                    <p id="project-details"></p>
+                </div>
+            </div>
+    
+        <script src="script.js"></script>
+        <footer>
+                <div class="footer-content">
+                    <p>&copy; 2024 Ahmad Reza. Semua hak dilindungi.</p>
+                    <p>Ikuti saya di: | 
+                        <a href="https://github.com/rezaahmad19" target="_blank">GitHub</a> |
+                    </p>
+                    <p>Kontak: <a href="rezareza@domain.com">rezareza@domain.com</a></p>
+                </div>
+            </footer>
+    </body>
+    </html>
